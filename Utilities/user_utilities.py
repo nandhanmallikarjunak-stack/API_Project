@@ -1,11 +1,10 @@
 
-
 import requests
-from API_Practice.Helpers.api_helpers import APIhelpers
-from API_Practice.APIObjects.user_api_objects import userAPIObjects
-from API_Practice.TestData.user_account import UserAccountTestData
+from Helpers.api_helpers import APIhelpers
+from APIObjects.user_api_objects import userAPIObjects
+from TestData.user_account import UserAccountTestData
 
-class userAPI:
+class UserAPI:
 
     url= "https://automationexercise.com/api"
     api_helper = APIhelpers()

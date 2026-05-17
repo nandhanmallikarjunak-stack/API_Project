@@ -1,7 +1,7 @@
 from http.client import responses
 
 import requests
-from API_Practice.APIObjects.user_api_objects import userAPIObjects
+from APIObjects.user_api_objects import userAPIObjects
 
 class APIhelpers:
     user_api = userAPIObjects()
